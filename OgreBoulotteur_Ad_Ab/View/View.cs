@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OgreBoulotteurCSharp.OgreBoulotteur.View {
-    using OgreBoulotteur.Model;
-    using OgreBoulotteur.Model.Pawn;
+namespace OgreBoulotteur_Ad_Ab.View {
+    using OgreBoulotteur_Ad_Ab.Model;
+    using OgreBoulotteur_Ad_Ab.Model.Pawn;
     public class View : IView {
         private IModel Model { get; set; }
 
