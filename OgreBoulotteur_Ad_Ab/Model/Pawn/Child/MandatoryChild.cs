@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OgreBoulotteur_Ad_Ab.Model.Square;
 
 namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
 {
-    internal class MandatoryChild
+    public class MandatoryChild : IPawn
     {
         public Child child { get; }
 
@@ -51,4 +52,4 @@ namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
         }
     }
 }
-}
+

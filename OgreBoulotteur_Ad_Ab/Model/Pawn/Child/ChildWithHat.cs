@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OgreBoulotteur_Ad_Ab.Model.Square;
 
 namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
 {
@@ -18,7 +19,7 @@ namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
         {
             if (num == 0)
             {
-                return Hat.sprite;
+                return ChildWithHat.sprite;
             }
             return null;
         }
