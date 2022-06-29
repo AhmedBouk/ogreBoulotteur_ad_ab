@@ -12,10 +12,10 @@
             View = new View(Model);
 
             MandatoryChild firstBoy = new ChildWithInstrument(new ChildWithHat(new Boy(new MandatoryChild(new StandarChild(10,10)))));
-            MandatoryChild secondGirl = new ChildWithHat(new ChildWithInstrument(new ChildWithHat(new Girl(new MandatoryChild(new StandarChild(1, 1))))));
+            MandatoryChild firstGirl = new ChildWithHat(new ChildWithInstrument(new ChildWithHat(new Girl(new MandatoryChild(new StandarChild(1, 1))))));
 
             Model.AddPawn(firstBoy);
-            Model.AddPawn(secondGirl);
+            Model.AddPawn(firstGirl);
         }
 
         public void GameLoop() {
