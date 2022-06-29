@@ -11,11 +11,11 @@
             Model = new Model();
             View = new View(Model);
 
-            ProxyChild boy1 = new Instrument(new Hat(new Boy(new ProxyChild(new BasicChild(10,10)))));
-            ProxyChild w = new Sword(new Instrument(new Hat(new Girl(new ProxyChild(new BasicChild(1, 1))))));
+            MandatoryChild firstBoy = new ChildWithInstrument(new ChildWithHat(new Boy(new MandatoryChild(new StandarChild(10,10)))));
+            MandatoryChild firstGirl = new ChildWithHat(new ChildWithInstrument(new ChildWithHat(new Girl(new MandatoryChild(new StandarChild(1, 1))))));
 
-            Model.AddPawn(boy1);
-            Model.AddPawn(w);
+            Model.AddPawn(firstBoy);
+            Model.AddPawn(firstGirl);
         }
 
         public void GameLoop() {
