@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
 {
-    internal class ChildWithInstrument
+    class ChildWithInstrument : DecoratorChild
     {
+        private static readonly ISprite sprite = new Sprite('∑');
+        public ChildWithInstrument(MandatoryChild child) : base(child)
+        {
+
+        }
+
+        public override ISprite GetSpriteExtendedDecorated(int num)
+        {
+            if (num == 2)
+            {
+                return ChildWithInstrument.sprite;
+            }
+            return null;
+        }
     }
+}
 }
