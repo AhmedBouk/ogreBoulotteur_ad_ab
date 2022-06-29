@@ -1,0 +1,15 @@
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\bin\Debug\net6.0\OgreBoulotteur_Ad_Ab.exe
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\bin\Debug\net6.0\OgreBoulotteur_Ad_Ab.deps.json
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\bin\Debug\net6.0\OgreBoulotteur_Ad_Ab.runtimeconfig.json
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\bin\Debug\net6.0\OgreBoulotteur_Ad_Ab.dll
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\bin\Debug\net6.0\OgreBoulotteur_Ad_Ab.pdb
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\OgreBoulotteur_Ad_Ab.csproj.AssemblyReference.cache
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\OgreBoulotteur_Ad_Ab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\OgreBoulotteur_Ad_Ab.AssemblyInfoInputs.cache
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\OgreBoulotteur_Ad_Ab.AssemblyInfo.cs
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\OgreBoulotteur_Ad_Ab.csproj.CoreCompileInputs.cache
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\OgreBoulotteur_Ad_Ab.dll
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\refint\OgreBoulotteur_Ad_Ab.dll
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\OgreBoulotteur_Ad_Ab.pdb
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\OgreBoulotteur_Ad_Ab.genruntimeconfig.cache
+C:\Users\hmeed\source\repos\OgreBoulotteur_Ad_Ab\OgreBoulotteur_Ad_Ab\obj\Debug\net6.0\ref\OgreBoulotteur_Ad_Ab.dll
