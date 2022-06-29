@@ -3,7 +3,7 @@
 namespace OgreBoulotteur_Ad_Ab.Model {
     using OgreBoulotteur_Ad_Ab.Model.Pawn;
     using OgreBoulotteur_Ad_Ab.Model.Square;
-    public interface IForest {
+    public interface IWorld {
         int Height { get; }
         int Width { get; }
         ISquare GetSquare(int x, int y);

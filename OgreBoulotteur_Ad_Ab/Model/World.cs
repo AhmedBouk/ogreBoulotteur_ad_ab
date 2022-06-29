@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace OgreBoulotteur_Ad_Ab.Model {
     using OgreBoulotteur_Ad_Ab.Model.Pawn;
     using OgreBoulotteur_Ad_Ab.Model.Square;
-    class Forest : IForest {
+    class World : IWorld {
         public int Height { get; private set; }
         public int Width { get; private set; }
         private int density;
@@ -23,7 +23,7 @@ namespace OgreBoulotteur_Ad_Ab.Model {
       
         public Model Model { get; set; }
 
-        public Forest(int height, int width, int density, Model model) {
+        public World(int height, int width, int density, Model model) {
             Height = height;
             Width = width;
             Density = density;
@@ -81,7 +81,7 @@ namespace OgreBoulotteur_Ad_Ab.Model {
 
         public void AddPawn(IPawn pawn) {
             this.pawns.Add(pawn);
-            pawn.Forest = this;
+            pawn.World = this;
         }
     }
 }

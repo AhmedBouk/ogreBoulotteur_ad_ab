@@ -14,11 +14,13 @@ public class MandatoryOgre : IPawn
     public int X => ogre.X;
 
     public int Y => ogre.Y;
+
+    public bool IsOgre => true;
     
-    public IForest Forest
+    public IWorld World
     {
-        get => ogre.Forest;
-        set => ogre.Forest = value;
+        get => ogre.World;
+        set => ogre.World = value;
     }
 
     public ISprite Sprite => ogre.Sprite;
@@ -43,6 +45,7 @@ public class MandatoryOgre : IPawn
     {
         ogre.Live();
     }
+
     
     public virtual ISprite GetSpriteExtended(int num)
     {

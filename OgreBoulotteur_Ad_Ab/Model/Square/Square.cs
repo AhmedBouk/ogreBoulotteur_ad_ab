@@ -13,6 +13,7 @@
         public ISprite GetSprite(int num)
         {
             ISprite result = GetSpriteExtended(num);
+
             if (result != null)
             {
                 return result;

@@ -5,7 +5,9 @@
     public interface IPawn:ISquare {
         int X { get; }
         int Y { get; }
-        public IForest Forest { get; set; }
+        
+        bool IsOgre { get; }
+        public IWorld World { get; set; }
         void Live();
         void Die();
         ISprite GetSpriteExtended(int num);

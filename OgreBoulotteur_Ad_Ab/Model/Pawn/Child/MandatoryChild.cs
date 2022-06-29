@@ -11,16 +11,20 @@ namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
     {
         public Child child { get; }
 
+        
         public MandatoryChild(Child child)
         {
             this.child = child;
         }
+        
 
         public int X => child.X;
 
         public int Y => child.Y;
 
-        public IForest Forest { get => child.Forest; set => child.Forest = value; }
+        public bool IsOgre => false;
+
+        public IWorld World { get => child.World; set => child.World = value; }
 
         public ISprite Sprite => child.Sprite;
 
@@ -50,6 +54,8 @@ namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
         {
             return child.GetSpriteExtended(num);
         }
+        
+        
     }
 }
 
