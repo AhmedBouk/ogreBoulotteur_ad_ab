@@ -9,7 +9,7 @@ namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
 {
     class StandardChild : Child
     {
-        private static readonly Sprite sprite = new('☺');
+        private static readonly Sprite sprite = new('C');
         public StandardChild(int x, int y) : base(x, y)
         {
             this.SetSprite(0, sprite);

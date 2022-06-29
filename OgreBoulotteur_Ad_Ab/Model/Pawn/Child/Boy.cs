@@ -9,7 +9,7 @@ namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
 {
     internal class Boy : DecoratorChild
     {
-        private static readonly ISprite sprite = new Sprite('Ω');
+        private static readonly ISprite sprite = new Sprite('♂');
         public Boy(MandatoryChild child) : base(child)
         {
 

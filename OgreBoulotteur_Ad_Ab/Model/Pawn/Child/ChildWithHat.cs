@@ -9,7 +9,7 @@ namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
 {
     class ChildWithHat : DecoratorChild
     {
-        private static readonly ISprite sprite = new Sprite('@');
+        private static readonly ISprite sprite = new Sprite('^');
         public ChildWithHat(MandatoryChild child) : base(child)
         {
 

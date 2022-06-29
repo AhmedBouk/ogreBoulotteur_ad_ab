@@ -9,7 +9,7 @@ namespace OgreBoulotteur_Ad_Ab.Model.Pawn.Child
 {
     class ChildWithInstrument : DecoratorChild
     {
-        private static readonly ISprite sprite = new Sprite('∑');
+        private static readonly ISprite sprite = new Sprite('&');
         public ChildWithInstrument(MandatoryChild child) : base(child)
         {
 
