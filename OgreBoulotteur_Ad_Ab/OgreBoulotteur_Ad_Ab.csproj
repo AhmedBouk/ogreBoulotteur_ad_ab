@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Controller\" />
-    <Folder Include="Model\Pawn\Ogre\" />
     <Folder Include="Model\Square\" />
     <Folder Include="View\" />
   </ItemGroup>

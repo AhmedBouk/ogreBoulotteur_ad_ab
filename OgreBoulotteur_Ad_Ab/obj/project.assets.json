@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hmeed\\.nuget\\packages\\": {}
+    "C:\\Users\\arman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hmeed\\source\\repos\\OgreBoulotteur_Ad_Ab\\OgreBoulotteur_Ad_Ab\\OgreBoulotteur_Ad_Ab.csproj",
+      "projectUniqueName": "D:\\Dev\\cours\\ogreBoulotteur_ad_ab\\OgreBoulotteur_Ad_Ab\\OgreBoulotteur_Ad_Ab.csproj",
       "projectName": "OgreBoulotteur_Ad_Ab",
-      "projectPath": "C:\\Users\\hmeed\\source\\repos\\OgreBoulotteur_Ad_Ab\\OgreBoulotteur_Ad_Ab\\OgreBoulotteur_Ad_Ab.csproj",
-      "packagesPath": "C:\\Users\\hmeed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hmeed\\source\\repos\\OgreBoulotteur_Ad_Ab\\OgreBoulotteur_Ad_Ab\\obj\\",
+      "projectPath": "D:\\Dev\\cours\\ogreBoulotteur_ad_ab\\OgreBoulotteur_Ad_Ab\\OgreBoulotteur_Ad_Ab.csproj",
+      "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev\\cours\\ogreBoulotteur_ad_ab\\OgreBoulotteur_Ad_Ab\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hmeed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
